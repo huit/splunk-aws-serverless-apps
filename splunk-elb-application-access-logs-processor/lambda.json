@@ -2,7 +2,7 @@
   "lambda": {
     "FunctionName": "splunk-elb-application-access-logs-processor",
     "Handler": "index.handler",
-    "Runtime": "nodejs6.10",
+    "Runtime": "nodejs8.10",
     "Description": "Stream Application ELB access logs from S3 to Splunk's HTTP event collector",
     "Environment": {
       "Variables": {

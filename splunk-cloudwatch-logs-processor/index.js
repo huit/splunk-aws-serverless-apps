@@ -58,8 +58,8 @@ exports.handler = (event, context, callback) => {
                             time: item.timestamp ? new Date(item.timestamp).getTime() / 1000 : Date.now(),
                             host: 'serverless',
                             source: `lambda:${context.functionName}`,
-                            sourcetype: 'httpevent',
-                            //index: 'main',
+                            sourcetype: 'aws:cloudwatch:guardduty',
+                            index: 'huit-guardduty',
                         },
                     });
 

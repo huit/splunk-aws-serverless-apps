@@ -54,7 +54,7 @@ Resources:
       Type: 'AWS::Serverless::Function'
       Properties:
         Handler: index.handler
-        Runtime: nodejs6.10
+        Runtime: nodejs8.10
         CodeUri: ./splunk-cloudwatch-logs-processor.zip
         Description: Stream events from AWS CloudWatch Logs to Splunk HTTP event collector
         MemorySize: 512

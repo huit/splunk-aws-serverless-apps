@@ -3,6 +3,8 @@ var handler = require('./index').handler;
 fs=require('fs');
 var event = JSON.parse(fs.readFileSync('sampleEvent.json', 'utf8'));
 
+// console.log(process.env);
+
 handler(
 	event,
     {

@@ -1,0 +1,23 @@
+{
+    "StackName": "splunk-prod-all-cf",
+    "TemplateURL": "https://s3.amazonaws.com/shared-services-prod-bucket/splunk/prod/parent.yml",
+    "Tags": [
+        {
+            "Key": "Name",
+            "Value": "splunk-prod-all-cf"
+        },
+        {
+            "Key": "environment",
+            "Value": "Production"
+        },
+        {
+            "Key": "huit_assetid",
+            "Value": "-1"
+        },
+        {
+            "Key": "product",
+            "Value": "splunk"
+        }
+    ],
+    "Capabilities": [ "CAPABILITY_NAMED_IAM" ]
+}

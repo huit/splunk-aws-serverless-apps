@@ -60,8 +60,8 @@ exports.handler = (event, context, callback) => {
             time: Date.now(),
             host: 'serverless',
             source: `lambda:${context.functionName}`,
-            sourcetype: 'httpevent',
-            //index: 'main',
+            sourcetype: 'aws:cloudwatch:guardduty',
+            index: 'huit-guardduty',
         },
     });
 

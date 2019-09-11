@@ -2,7 +2,7 @@
   "lambda": {
     "FunctionName": "splunk-cloudwatch-logs-processor",
     "Handler": "index.handler",
-    "Runtime": "nodejs6.10",
+    "Runtime": "nodejs8.10",
     "Description": "Stream events from AWS CloudWatch Logs to Splunk's HTTP event collector",
     "Environment": {
       "Variables": {
